@@ -24,7 +24,7 @@ export function useYjsStore({
 	roomId = 'example',
 	hostUrl = import.meta.env.MODE === 'development'
 		? 'ws://localhost:8080'
-		: 'https://friendship-link.fly.dev/',
+		: 'wss://friendship-link.fly.dev/',
 	shapeUtils = [],
 }: Partial<{
 	hostUrl: string

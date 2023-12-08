@@ -5,7 +5,7 @@ import { useYjsStore } from './useYjsStore'
 const HOST_URL =
 	import.meta.env.MODE === 'development'
 		? 'ws://localhost:8080'
-		: 'https://friendship-link.fly.dev/'
+		: 'wss://friendship-link.fly.dev/'
 
 export default function YjsExample() {
 	const store = useYjsStore({
