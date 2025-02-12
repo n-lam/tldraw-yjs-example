@@ -1,3 +1,9 @@
+# This repository is archived
+
+In general, we don't consider yjs (& current CRDT libraries in general) to be a good fit for tldraw. Instead, we recommend [tldraw sync](https://tldraw.dev/docs/sync).
+
+---
+
 This repository shows how you might use [tldraw](https://github.com/tldraw/tldraw) together with the [yjs](https://yjs.dev) library. It also makes a good example for how to use tldraw with other backend services!
 
 ## Bootsrapping Locally
